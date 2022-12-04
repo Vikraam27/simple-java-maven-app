@@ -12,6 +12,7 @@ node {
         stage('Deliver') {
             checkout scm
             sh './jenkins/scripts/deliver.sh'
+    
         }
     }
 }
