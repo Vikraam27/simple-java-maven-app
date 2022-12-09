@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "change directory"
-cd asimple-java-maven-app
+cd simple-java-maven-app
 
 echo "pull repository"
 git pull origin master
