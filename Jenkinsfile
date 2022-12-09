@@ -19,7 +19,7 @@ node {
     stage('Deploy') {
         checkout scm
         sshagent(credentials:['Login_Cloud_Server']){
-            sh 'ssh  -o StrictHostKeyChecking=no  vikram@35.219.77.187 "sh ./a428-cicd-labs/jenkins/scripts/deploy.sh"'
+            sh 'ssh  -o StrictHostKeyChecking=no  vikram@35.219.77.187 "sh ./simple-java-maven-app/jenkins/scripts/deploy.sh"'
         }
     }
 }
